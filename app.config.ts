@@ -28,12 +28,11 @@ const schemeFromBundleId = `manus${timestamp}`;
 
 const env = {
   // App branding - update these values directly (do not use env vars)
-  appName: "LORNA Mobile App",
+  appName: "LORNA",
   appSlug: "lorna-mobile-app",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
-  scheme: schemeFromBundleId,
+  logoUrl: "https://private-us-east-1.manuscdn.com/sessionFile/n25QS3oWCkeH8ofC54FcmS/sandbox/xN35ufpdC9dkjUr245ryDv-img-1_1771379215000_na1fn_aWNvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbjI1UVMzb1dDa2VIOG9mQzU0RmNtUy9zYW5kYm94L3hOMzV1ZnBkQzlka2pVcjI0NXJ5RHYtaW1nLTFfMTc3MTM3OTIxNTAwMF9uYTFmbl9hV052YmcucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Rv-WoGFaPVfLrzKDMyjWrLJuG17~~NlH2N-uZ3GkenMa0m1iKs67s2ZFsJl-~nQngtJC6H~ZA4NclvTRD4hxuT8Kf~Fy0skqHv7tRyzVQUPdYwhlaCzRQqmMjUhVEsauLo88RwWtI6IjyNnNGnY8bNSZJ7vy3L1D5rrA8LTPMuR0wqQfU02T9jK9hpYY50mxVdwud8nF9JZHWwk1DVzis7BsRqEzBkMqtu38bH06Ws2L0SdUlwjXhwI8kcWCdy8XSF610XT1AqiAAO-yJydfwduSzSgmXAZKpTu1qXoOfJSibkcDqdK2JUdgZGDLOrewX0fn37eSwDpGo4WZAAALIw__",  scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
 };
