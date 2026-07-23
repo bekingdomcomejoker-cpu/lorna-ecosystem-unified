@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LORNA v3</string>
+    <string name="app_description">Local Offline Reasoning Node Architecture</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat_title">LORNA Chat</string>
+    <string name="message_hint">Type your message...</string>
+    <string name="send_button">Send</string>
+    <string name="voice_input">Voice Input</string>
+    
+    <!-- Models Screen -->
+    <string name="models_title">Models</string>
+    <string name="active_model">Active Model</string>
+    <string name="model_size">Size</string>
+    <string name="model_speed">Speed</string>
+    <string name="model_memory">Memory</string>
+    <string name="load_model">Load Model</string>
+    <string name="unload_model">Unload Model</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="context_size">Context Size</string>
+    <string name="threads">Threads</string>
+    <string name="temperature">Temperature</string>
+    <string name="batch_size">Batch Size</string>
+    <string name="save_settings">Save Settings</string>
+    
+    <!-- Metrics -->
+    <string name="metrics_title">Metrics</string>
+    <string name="gen_tps">Gen t/s</string>
+    <string name="thermal_temp">Thermal</string>
+    <string name="memory_usage">Memory %</string>
+    <string name="active_model_label">Active Model</string>
+    
+    <!-- Memory Compression -->
+    <string name="memory_compression">Memory Compression</string>
+    <string name="pass_1">Pass 1</string>
+    <string name="pass_2">Pass 2</string>
+    
+    <!-- Status -->
+    <string name="offline">Offline</string>
+    <string name="streaming">Streaming</string>
+    <string name="memory">Memory</string>
+    <string name="sovereign">Sovereign</string>
+    
+    <!-- Errors -->
+    <string name="error_no_models">No models found</string>
+    <string name="error_connection">Connection error</string>
+    <string name="error_insufficient_memory">Insufficient memory</string>
+</resources>

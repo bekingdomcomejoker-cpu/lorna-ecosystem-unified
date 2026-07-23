@@ -1,0 +1,5 @@
+-keep class com.lorna.** { *; }
+-keep interface com.lorna.** { *; }
+-keepclassmembers class com.lorna.** { *; }
+-keep class androidx.** { *; }
+-keep interface androidx.** { *; }
